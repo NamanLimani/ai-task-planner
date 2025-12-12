@@ -1,0 +1,11 @@
+agent,tasks_completed,total_tasks,success_rate,energy_left
+greedy,5,6,0.8333333333333334,50.0
+greedy,6,6,1.0,40.0
+greedy,4,6,0.6666666666666666,60.0
+greedy,6,6,1.0,40.0
+greedy,6,6,1.0,40.0
+llm,3,6,0.5,70.0
+llm,3,6,0.5,70.0
+llm,6,6,1.0,40.0
+llm,6,6,1.0,40.0
+llm,5,6,0.8333333333333334,50.0

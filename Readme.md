@@ -60,6 +60,10 @@ ai-task-planner/
 ├── requirements.txt      # Project dependencies
 └── README.md             # Documentation
 ````
+
+**Project Demo**
+- Demo link: https://drive.google.com/drive/folders/1XnjPN9MmZRyUjfTHV68zZciGbjpH_cBx?usp=sharing
+
 -----
 
 ##  Installation & Setup

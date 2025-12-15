@@ -1,5 +1,5 @@
-````markdown
-#Agentic Task Planner with Reflexion Architecture
+
+**Agentic Task Planner with Reflexion Architecture**
 **Deep Learning Project | NYU MSCS**
 
 ![Python](https://img.shields.io/badge/Python-3.9%2B-blue)
@@ -7,12 +7,12 @@
 ![Framework](https://img.shields.io/badge/UI-Streamlit-red)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
-##Project Overview
+**Project Overview**
 This project implements an **Agentic AI System** designed to autonomously plan daily schedules under realistic, stochastic constraints (e.g., user fatigue, unexpected interruptions, time limits). 
 
 Unlike standard "zero-shot" schedulers, this system utilizes a **Reflexion Architecture** (Adversarial Planner-Critic Loop) to achieve meta-cognitive reasoning. The agent drafts a plan, critiques its own logic against energy constraints, and dynamically re-plans in real-time when the simulation environment injects "crisis" events.
 
-###Key Objectives
+**Key Objectives**
 1.  **Constraint Satisfaction:** Optimize task ordering based on user energy levels (circadian rhythm) rather than just time slots.
 2.  **Dynamic Resilience:** Detect execution delays and autonomously drop low-priority tasks to salvage high-priority goals.
 3.  **Meta-Cognition:** Use an internal "Critic" module to validate plans before execution, reducing initial failure rates.
@@ -20,28 +20,28 @@ Unlike standard "zero-shot" schedulers, this system utilizes a **Reflexion Archi
 
 ---
 
-##Features
+**Features**
 
-###Intelligent Architecture
+**Intelligent Architecture**
 -   **Planner Agent:** Uses Chain-of-Thought (CoT) prompting to decompose goals into actionable schedules.
 -   **Reflexion Loop:** A secondary "Critic" agent reviews the draft plan for logical flaws (e.g., "Scheduling complex coding tasks at 5 PM when fatigue is high") and forces a revision.
 -   **Memory Module:** Retains lessons from previous simulation episodes (RAG-lite) to avoid repeating mistakes.
 
-###Interactive Simulation (Streamlit UI)
+**Interactive Simulation (Streamlit UI)**
 -   **Live Execution:** Watch the agent execute tasks, drain energy, and react to events in real-time.
 -   **Crisis Injection:** Manually trigger a "2-Hour Emergency Meeting" to test the agent's re-planning capabilities.
 -   **Ablation Controls:** Toggle "Reflexion" and "Memory" on/off to perform live A/B testing of the architecture.
 -   **Calendar Export:** One-click export of the AI-generated schedule to `.ics` format (compatible with Apple/Google Calendar).
 
-###Research Analytics
+**Research Analytics**
 -   **Headless Benchmarking:** A script (`evaluate_models.py`) that compares the Agent against a Greedy Baseline (Shortest-Job-First).
 -   **Automated Metrics:** Tracks "Success Rate," "Energy Conservation," and "Tasks Completed" across hundreds of episodes.
 
 ---
 
-##  Repository Structure
+**Repository Structure**
 
-```text
+
 ai-task-planner/
 ├── src/
 │   ├── agent.py          # Core LLM Agent (Planner & Refiner logic)
@@ -58,7 +58,7 @@ ai-task-planner/
 ├── run_agentic_loop.py   # CLI script for qualitative testing
 ├── requirements.txt      # Project dependencies
 └── README.md             # Documentation
-````
+
 
 -----
 
@@ -148,6 +148,7 @@ Our evaluation compares the **Reflexion Agent** against a **Greedy Baseline** (S
 
   - **Naman Limani**
   - **Naman Vashishta**
+
     *New York University, MSCS Deep Learning Course (Fall 2025)*
 
 ```

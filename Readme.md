@@ -41,6 +41,7 @@ Unlike standard "zero-shot" schedulers, this system utilizes a **Reflexion Archi
 
 **Repository Structure**
 
+```text
 
 ai-task-planner/
 ├── src/
@@ -58,8 +59,7 @@ ai-task-planner/
 ├── run_agentic_loop.py   # CLI script for qualitative testing
 ├── requirements.txt      # Project dependencies
 └── README.md             # Documentation
-
-
+````
 -----
 
 ##  Installation & Setup

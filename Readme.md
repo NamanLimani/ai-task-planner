@@ -92,7 +92,7 @@ This project requires a Google Gemini API key.
 
 ```env
 GEMINI_API_KEY=your_actual_api_key_here
-GEMINI_MODEL_NAME=gemini-1.5-flash
+GEMINI_MODEL_NAME=gemini-2.5-flash
 ```
 
 -----
